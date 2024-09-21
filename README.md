@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# 리액트 틱택토 게임
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+이 프로젝트는 리액트 공식 문서의 틱택토 튜토리얼을 기반으로 개발된 간단한 게임입니다.
 
-## Available Scripts
+## 프로젝트 소개
 
-In the project directory, you can run:
+이 게임은 리액트를 학습하기 위한 목적으로 만들어졌으며, 다음과 같은 기능을 포함하고 있습니다:
 
-### `npm start`
+- 3x3 게임 보드
+- 두 플레이어가 번갈아가며 플레이
+- 승자 판정 및 게임 종료 알림
+- 게임 기록 및 이전 단계로 되돌리기 기능
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 시작하기
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. 저장소를 클론합니다.
+2. `npm install`을 실행하여 의존성을 설치합니다.
+3. `npm start`를 실행하여 개발 서버를 시작합니다.
+4. 브라우저에서 `http://localhost:3000`으로 접속하여 게임을 플레이합니다.
 
-### `npm test`
+## 학습 내용
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+이 프로젝트를 통해 다음과 같은 리액트 개념을 학습했습니다:
 
-### `npm run build`
+- 컴포넌트 생성 및 구조화
+- props를 통한 데이터 전달
+- state 관리 및 업데이트
+- 이벤트 처리
+- 조건부 렌더링
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 향후 개선 사항
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- AI 플레이어 추가
+- 게임 보드 크기 조절 기능
+- 멀티플레이어 온라인 대전 모드
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 참고 자료
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [리액트 공식 문서 틱택토 튜토리얼](https://ko.reactjs.org/tutorial/tutorial.html)
